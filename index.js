@@ -22,39 +22,7 @@ else {
     window.alert(`Too low, guess again attempts left ${attempt}`)
     attempt--
     document.getElementById("attempts").innerText = attempt
-}// window.alert(`Game Over the winning number was ${winningNumber}`)
-
+}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const output = document.querySelector("div");
-// const myInput = document.querySelector("input");
-// const btn = document.querySelector("button");
-
-// let button = document.createElement("button");
-
-// function clickedMe() {
-
-// let temp = Math.random() * 10;
-// console.log(temp);
-// temp = Math.floor(temp);
-// output.textContent = temp;
-// }
-
+    window.alert(`Game Over the winning number was ${winningNumber}`)
